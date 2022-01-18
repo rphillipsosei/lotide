@@ -18,4 +18,4 @@ function assertArrayEquals(arr1, arr2) {
   }
 }
 
-node.module = assertArraysEqual;
+module.exports = assertArraysEqual;
