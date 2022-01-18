@@ -17,3 +17,5 @@ function assertArrayEquals(arr1, arr2) {
     console.log(`🚨🚨Assertion Failed: ${actual} is not equal to ${expected}`);
   }
 }
+
+node.module = assertArraysEqual;
